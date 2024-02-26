@@ -49,3 +49,64 @@
         line-height: 66px;
     }
 }
+.toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    transition: opacity 0.5s;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-label {
+    position: relative;
+    cursor: pointer;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: background-color 0.4s;
+    display: inline-block;
+}
+
+.toggle-label:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+    background-color: #2196F3;
+}
+
+.toggle-checkbox:checked + .toggle-label:before {
+    transform: translateX(26px);
+}
+
+.toggle-label:after {
+    content: "☀️"; /* Light mode emoji */
+    position: absolute;
+    top: 46%;
+    left: 7px;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+.toggle-checkbox:checked + .toggle-label:after {
+    content: "🌙"; /* Dark mode emoji */
+    left: calc(80% - 26px + 10px);
+}
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
