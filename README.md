@@ -25,9 +25,8 @@
 
 Si tienes alguna pregunta, sugerencia o simplemente quieres decir hola, no dudes en ponerte en contacto con nosotros:
 
-- **Sitio web**: [www.abrazossuavesnelangel.com](https://www.abrazossuavesnelangel.com)
-- **Correo electrónico**: contacto@abrazossuavesnelangel.com
-- **Teléfono**: +123456789
+- **Sitio web**: [https://nelangel.github.io/Abrazos-Suaves-NelAngel/)
+- **Teléfono**: +51935170754
 
 ¡Gracias por visitar nuestro catálogo de productos! Esperamos que encuentres algo que te haga sonreír y que disfrutes de tu experiencia en nuestra página.
 
